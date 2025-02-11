@@ -3,12 +3,21 @@
 ## Project Purpose
 This main controller PCB is the central hub that coordinates motor control, sensor data acquisition, and communication with an ESP32 camera module and remote controller. The BadgerBrigade RC Fire Truck is designed to remotely assess fire environments using live video streaming and sensor feedback, minimizing risks for firefighters.
 
+## Design Documentation
+- Complete schematics available in PDF format
+- PCB layout files with all layers documented
+- 3D visualization renders for mechanical integration verification
+
 ## Key Features
 - **Remote Monitoring:** Live video stream via ESP32 camera over WiFi
 - **Actuator Control:** 4x wheels, water pump, and servo for firefighting actions
 - **Sensor Suite:** IMU (LSM6DSMTR), magnetometer (IIS2MDCTR), and EEPROM for motion tracking and data logging
 
 ## Hardware Design
+### Documentation & Design Files
+- Detailed schematics captured in PDF format showing all electrical connections and component values
+- Professional PCB layout with optimized component placement and routing
+- 3D model renders for mechanical fit verification and assembly planning
 
 ### Power Management
 - **Input Voltage:** 12V battery
@@ -39,7 +48,6 @@ This main controller PCB is the central hub that coordinates motor control, sens
 - **Speaker Output:** LC filter (10µH inductor + 63nF capacitor) for siren signal smoothing
 
 ## Design Challenges & Solutions
-
 ### Thermal Management
 - Thermal vias under TLV1117LV33 LDO eliminated the need for heatsinks
 

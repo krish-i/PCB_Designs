@@ -3,18 +3,12 @@
 ## Project Overview
 Wisconsin Formula SAE Racing - Charging Cart Board PCB Documentation
 
-## Table of Contents
-1. TopLevel Schematic
-2. MCUs
-3. Digital Signals
-4. Connectors
-5. Power
-6. Shutdown Circuit
-7. TSAL Comparator
-8. TSAL Driver
+## Design Files
+- Complete schematic documentation (PDF)
+- Comprehensive PCB layout files
+- Detailed 3D model visualizations for mechanical verification
 
 ## Circuit Sections
-
 ### MCUs
 - **BMS MCU Configuration**: TM4C Launchpad implementation
 - **Key Features**:
@@ -63,6 +57,12 @@ Wisconsin Formula SAE Racing - Charging Cart Board PCB Documentation
   - LED control for status indication
   - Timer-based operation (2Hz-5Hz)
   - Configurable timing via RC network
+
+## Technical Documentation
+### Design Files
+- Detailed schematics in PDF format
+- Multi-layer PCB layout documentation
+- 3D renders for mechanical integration
 
 ## Component Selection Notes
 - **MCU**: TM4C series chosen for CAN and GPIO capabilities
